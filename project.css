@@ -1,0 +1,80 @@
+.menu {
+    background: rgba(0, 255, 0, 0.6);
+    padding: 15px;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    font-family: sans-serif;
+    font-size: 20px;
+    box-shadow: 0px 5px 15px black;
+}
+.menug a{
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+}
+.menug a:hover {
+    color: black;
+}
+.main {
+    margin-top: 75px;
+}
+.body {
+    background-color: orange; 
+}
+#metka {
+    color: purple
+}
+.text {
+    text-align: center;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;  
+    border: 3px solid white;
+    background: #080E73;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+}
+#card-image1 {
+    height: 100px;
+    width: 150px;
+    border: 2px solid red;
+    padding: 10px;
+    margin-left: 3px;
+}
+.card-text {
+    padding: 20px;
+    color: yellow;
+}
+.card {
+    margin: 20px;
+}
+#card-image2 {
+    height: 100px;
+    width: 150px;
+    border: 2px solid red;
+    padding: 10px;
+    margin-left: 32px;
+}
+#card-image3 {
+    height: 100px;
+    width: 150px;
+    border: 2px solid red;
+    padding: 10px;
+    margin-left: 12px; 
+}
+.text-tooling {
+    text-align: center;
+}
+.footer {
+    background-image: url(gmi/fonFtr.jpg);
+    text-align: center;
+    color: #025167;
+    border: 3px solid green;
+    font-size: 20px;	 
+}
